@@ -1,0 +1,7 @@
+# Dependências de análise/build da apresentação (NÃO usadas pelos modelos).
+# Instalar por cima de requirements.txt. Verificado: não alteram
+# scikit-learn/numpy/scipy fixados no requirements.txt de modelagem.
+#   uv pip install -r requirements.txt -r requirements-analysis.txt
+scikit-posthocs   # teste de Nemenyi + gráfico de distância crítica
+ucimlrepo         # download das bases UCI (air_quality_rh, appliances_energy)
+python-pptx       # geração do deck RECPAD_apresentacao.pptx
